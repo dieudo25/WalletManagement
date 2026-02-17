@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\WalletManagement.Domain\WalletManagement.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Categories\" />
+    <Folder Include="Features\Budgets\" />
+    <Folder Include="Features\Reports\" />
+    <Folder Include="Features\Transactions\" />
+    <Folder Include="Features\Accounts\" />
+    <Folder Include="Features\Auth\" />
+    <Folder Include="Common\Interfaces\" />
+    <Folder Include="Common\Exceptions\" />
+    <Folder Include="Common\Behaviors\" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
