@@ -5,10 +5,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="FluentValidation" Version="11.11.0" />
-    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
+    <PackageReference Include="FluentValidation" Version="12.1.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
     <PackageReference Include="MediatR" Version="12.4.1" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.13" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,7 +18,6 @@
     <Folder Include="Features\Transactions\" />
     <Folder Include="Features\Accounts\" />
     <Folder Include="Features\Auth\" />
-    <Folder Include="Common\Interfaces\" />
     <Folder Include="Common\Exceptions\" />
     <Folder Include="Common\Behaviors\" />
   </ItemGroup>
